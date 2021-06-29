@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    vertical-align: middle;
+}
+.btn{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin:15px;
+    width: 120px;
+    height: 80px;
+}
+.btn:hover, .active{
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+#forwardBtn{
+    position: absolute;
+    left:50%
+}
+#backBtn{
+    position: absolute;
+    left:50%
+}
+@media (max-width:576px){
+    .btn{
+        margin:5px;
+        width: 100px;
+        height: 60px;
+    }
+}
